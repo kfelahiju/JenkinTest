@@ -1,7 +1,5 @@
 pipeline{
-    agent{
-        label "docker-agent"        
-    }
+    agent none
     stages{
         stage ('Run Docker Compose') {
             steps{
