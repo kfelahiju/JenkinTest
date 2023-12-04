@@ -1,5 +1,5 @@
 pipeline{
-    agent { dockerfile true }
+    agent any
     stages{
         stage ('Run Docker Compose') {
             steps{
